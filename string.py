@@ -6,9 +6,9 @@
 print("Hello");
 print('Hello');
 # You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
-print("It's alright")
-print("He is called 'Johnny'")
-print('He is called "Johnny"')
+print("It's alright");
+print("He is called 'Johnny'");
+print('He is called "Johnny"');
 
 # Assign String to a Variable
 # Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
@@ -105,7 +105,6 @@ age = 36
 #This will produce an error:
 # txt = "My name is John, I am " + age
 # print(txt)
-
 
 # F-String was introduced in Python 3.6, and is now the preferred way of formatting strings.
 
