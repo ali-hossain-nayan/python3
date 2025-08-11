@@ -59,7 +59,7 @@ b=200;
 if(not a>b):
    print("a is not greater than b");
 else:
-   print("Not conditon checked")
+   print("Not condition checked")
 
 # Nested if
 a=50;
@@ -83,7 +83,6 @@ if b > a:
 
 # The match statement selects one of many code blocks to be executed.
 
-# SyntaxGet your own Python Server
 # match expression:
 #   case x:
 #     code block

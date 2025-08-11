@@ -83,7 +83,8 @@ print(thislist);
 thislist[1:3]=["blackcurrant","walermelon"]
 print(thislist);
 
-# If you insert more items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
+# If you insert more items than you replace, the new items will be 
+# inserted where you specified, and the remaining items will move accordingly:
 
 # Example
 # Change the second value by replacing it with two new values:
@@ -93,7 +94,9 @@ thislist[1:2] = ["blackcurrant", "watermelon"]
 print(thislist);
 
 
-# If you insert less items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
+# If you insert less items than you replace, the new
+#  items will be inserted where you specified, and the remaining 
+# items will move accordingly:
 
 # Example
 # Change the second and third value by replacing it with one value:
@@ -103,7 +106,8 @@ thislist[1:3] = ["watermelon"]
 print(thislist);
 
 # Insert Items
-# To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+# To insert a new list item, without replacing any of the existing values, 
+# we can use the insert() method.
 
 # The insert() method inserts an item at the specified index:
 
@@ -125,7 +129,8 @@ thislist.append("orange")
 print(thislist);
 
 # Extend List
-# To append elements from another list to the current list, use the extend() method.
+# To append elements from another list to the current list, 
+# use the extend() method.
 
 thislist = ["apple", "banana", "cherry"]
 tropical = ["mango", "pineapple", "papaya"]
@@ -133,7 +138,8 @@ thislist.extend(tropical);
 print(thislist);
 
 # Add Any Iterable
-# The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
+# The extend() method does not have to append lists, 
+# you can add any iterable object (tuples, sets, dictionaries etc.).
 
 # Example
 # Add elements of a tuple to a list:
@@ -147,7 +153,6 @@ print(thislist);
 # Remove Specified Item
 # The remove() method removes the specified item.
 
-# ExampleGet your own Python Server
 # Remove "banana":
 
 thislist = ["apple", "banana", "cherry"]
@@ -214,12 +219,13 @@ while x<len(thislist):
 
 
 # List Comprehension
-# List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+# List comprehension offers a shorter syntax when you want to create 
+# a new list based on the values of an existing list.
 
 # Example:
 
-# Based on a list of fruits, you want a new list, containing only the fruits with the letter "a" in the name.
-
+# Based on a list of fruits, you want a new list, 
+# containing only the fruits with the letter "a" in the name.
 # Without list comprehension you will have to write a for statement with a conditional test inside:
 
 fruits =["apple","banana","orange","cherry", "kiwi","licchi"];

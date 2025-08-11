@@ -133,7 +133,8 @@ thisdict.pop("model")
 print(thisdict)
 
 
-# The popitem() method removes the last inserted item (in versions before 3.7, a random item is removed instead):
+# The popitem() method removes the last inserted item 
+# (in versions before 3.7, a random item is removed instead):
 
 thisdict = {
   "brand": "Ford",
@@ -313,3 +314,6 @@ for x, obj in myfamily.items():
 # setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
 # update()	Updates the dictionary with the specified key-value pairs
 # values()	Returns a list of all the values in the dictionary
+
+
+
